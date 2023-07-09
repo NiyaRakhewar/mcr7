@@ -28,7 +28,7 @@ export const Destinations = () => {
         {filteredCountryData?.destinations?.map((destination, i) => (
           <div
             key={i}
-            className="card"
+            className="dest-card"
             onClick={() => clickHandler(destination.name)}
           >
             <img className="image" src={destination.image} alt="" />
