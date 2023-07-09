@@ -9,8 +9,8 @@ export const Continents = () => {
         {data.continents.map((continent) => (
           <div className="card">
             <img className="image" src={continent.image} alt="" />
-            <div>
-              {/* <IoLocation /> */}
+            <div className="name">
+              <IoLocation />
               <p>{continent.name}</p>
             </div>
           </div>
